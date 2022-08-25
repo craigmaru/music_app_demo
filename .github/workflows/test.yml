@@ -18,7 +18,7 @@ jobs:
 
    build_ios:
       name: Build ios App (iOS)
-      needs: [flutter_test]
+      needs: [music_app]
       runs-on: macos-latest
       steps:
          - uses: actions/checkout@v3
