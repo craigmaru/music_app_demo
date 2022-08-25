@@ -17,7 +17,7 @@ void main() {
 
     // Verify that our counter starts at 0.
     expect(find.text('note1'), findsOneWidget);
-    expect(find.text('note7'), findsNothing);
+    expect(find.text('note8'), findsNothing);
 
     // Tap the '+' icon and trigger a frame.
     await tester.tap(find.byIcon(Icons.add));
