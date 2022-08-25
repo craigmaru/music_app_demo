@@ -1,6 +1,9 @@
 name: Music App
 
-on: push
+on:
+   push:
+      branches:
+         - "master"
 
 jobs:
    music_app:
